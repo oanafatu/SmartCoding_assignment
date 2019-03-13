@@ -1,0 +1,103 @@
+#container {
+  width: 60%;
+  margin: auto;
+}
+
+body {
+  font-family: Arial;
+  color: darkblue;
+}
+
+
+img {
+  width: 100%
+}
+
+#field {
+  width: 60%
+}
+
+h1,h2 {
+  color: pink;
+  text-transform: uppercase;
+  font-weight: 100;
+}
+
+h1 {
+  font-size: 300%
+}
+
+h3 {
+  font:size: 250%;
+  color: purple;
+}
+
+h4 {
+  margin-left:2em;
+  font-size: 150%;
+}
+
+h6{
+  margin-right: 2em;
+  text-align: right;
+}
+
+.column {
+  float: left;
+  width: 50%;
+
+}
+
+
+
+table {
+  width: 90%;
+  color: black;
+  
+}
+
+th {
+  display: table-cell;
+  vertical-align: inherit;
+  font-weight: bold;
+  text-align: center;
+  padding: 15px;
+}
+
+td {
+  display: table-cell;
+  vertical-align: inherit;
+  font-weight: normal;
+  text-align: center;
+}
+
+footer {
+  margin-top: 70px;
+  background-color: pink;
+  color: white;
+}
+
+footer p {
+  color: grey;
+  font-size: 100%;
+  margin-left: 3em;
+}
+
+
+
+
+@media screen and (max-width: 768px) {
+  #container{
+    width: 90%;
+  }
+  h1 {
+   font-size: 200%
+  }
+}
+
+
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+  }
+}
